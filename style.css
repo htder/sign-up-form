@@ -28,20 +28,38 @@
 }
 
 .top-section {
-  padding: 100px 100px 50px 20px;
+  padding: 250px 250px 0px 50px;
   background-color: grey;
   height: 38%;
 }
 
 .middle-section {
-  padding: 100px 100px 50px 20px;
+  padding: 0px 250px 50px 50px;
   height: 27%;
+}
+
+.form-title {
+  padding: 25px 0;
 }
 
 .bottom-section {
   background-color: grey;
-  padding: 100px 100px 50px 20px;
+  padding: 0px 250px 50px 50px;
   height: 30%;
+}
+
+.button-container {
+  padding: 35px 0;
+}
+
+button {
+  border: 1px solid green;
+  border-radius: 10px;
+  background-color: green;
+  width: 250px;
+  height: 50px;
+  color: white;
+  font-size: 18px;
 }
 
 .title-container {
@@ -52,6 +70,7 @@
   width: 35vw;
   height: 220px;
   position: absolute;
+  top: 300px; 
 }
 
 img {
@@ -62,4 +81,13 @@ h1 {
   color: white;
   font-family: "odin";
   font-size: 200px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h2 + p {
+  font-size: 28px;
+  padding-top: 50px;
 }
