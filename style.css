@@ -42,6 +42,29 @@
   padding: 25px 0;
 }
 
+.form {
+  display: flex;
+  flex-direction: row;
+}
+
+input, labe {
+  display: block;
+}
+
+.form-element {
+  margin: 10px;
+}
+
+.left-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-form {
+  display: flex;
+  flex-direction: column;
+}
+
 .bottom-section {
   background-color: grey;
   padding: 0px 250px 50px 50px;
