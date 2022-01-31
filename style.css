@@ -3,9 +3,14 @@
   src: url(fonts/Norse-Bold.otf);
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .container {
   display: flex;
   height: 100vh;
+  width: 100vw;
 }
 
 .left-container {
@@ -19,22 +24,24 @@
 
 .right-container {
   width: 65vw;
+  height: 100vh;
 }
 
 .top-section {
-  padding-top: 100px;
-  padding-bottom: 50px;
   padding: 100px 100px 50px 20px;
   background-color: grey;
+  height: 38%;
 }
 
 .middle-section {
   padding: 100px 100px 50px 20px;
+  height: 27%;
 }
 
 .bottom-section {
   background-color: grey;
   padding: 100px 100px 50px 20px;
+  height: 30%;
 }
 
 .title-container {
@@ -42,8 +49,9 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 100%;
+  width: 35vw;
   height: 220px;
+  position: absolute;
 }
 
 img {
