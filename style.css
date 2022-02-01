@@ -133,3 +133,12 @@ h2 + p {
   font-size: 28px;
   padding-top: 50px;
 }
+
+.error {
+  border: 1px solid red;
+}
+
+.error-message {
+  font-size: 12px;
+  color: red;
+}
